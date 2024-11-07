@@ -1,0 +1,38 @@
+body{
+    background-image: url(imagenes/sweet-spa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}/* Estilo del contenedor principal */
+.container {
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    margin: 0 auto;    /* Centrar el contenedor horizontalmente */
+    padding: 20px;
+  }
+  
+  /* Fila que alinea las columnas */
+  .row {
+    display: flex;        /* Estilo flexbox para alinear horizontalmente */
+    justify-content: space-around; /* Espacio uniforme entre columnas */
+    gap: 20px;            /* Espacio entre columnas (opcional) */
+  }
+  
+  /* Columnas individuales */
+  .col {
+    text-align: center;   /* Centra el texto y la imagen dentro de la columna */
+    flex: 1;              /* Permite que las columnas se expandan uniformemente */
+    max-width: 200px;     /* Tamaño máximo de cada columna */
+  }
+  
+  /* Estilo de las imágenes */
+  .col img {
+    width: 100%;          /* Imagen ajusta al tamaño de la columna */
+    height: auto;         /* Mantiene proporción de la imagen */
+  }
+  
+  /* Estilo del texto debajo de las imágenes */
+  .col p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  

@@ -1,0 +1,16 @@
+body{
+background-image: url(imagenes/caption.jpg) ;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#informacion{
+width: 40%;
+height: 30%;
+font-size: x-large;
+}
+
+#habitaciones{
+border: 3px solid rgb(0, 0, 0);
+text-decoration: none;
+}
+
